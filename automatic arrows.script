@@ -1,0 +1,6 @@
+#loop command block (redstone: no)
+  /testfor @e[type=minecraft:arrow]
+
+#chain command block (conditional, redstone: no)
+  /kill @n[type=!minecraft:arrow]
+                ^don't forget this
